@@ -475,3 +475,6 @@ header #menu ul {
 header #menu ul {
     color: hsla(0,0%,18%,1.00);
 }
+a {
+	text-decoration: none;
+}
