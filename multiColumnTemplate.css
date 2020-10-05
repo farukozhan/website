@@ -20,15 +20,11 @@
 }
 video {
 	width: 1150px;
+	background-repeat: repeat-x;
 	autoplay:yes;
 	loop:yes;
-		
-}
-.container .social.container {
-    background-repeat: repeat-x;
-	autoplay: yes
-	loop: yes	
-}
+}	
+
 .column_half {
     width: 100%;
     float: left;
