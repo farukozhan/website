@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
     require 'phpmailer/PHPMailerAutoload.php';
     $mail = new phpmailer;
 
-    $mail->Host='stmp.gmail.com';
+    $mail->Host='smtp.gmail.com';
     $mail->Port=587;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='tls';
